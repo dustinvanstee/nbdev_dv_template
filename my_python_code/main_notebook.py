@@ -3,15 +3,8 @@
 __all__ = ['OptionCuda']
 
 # Cell
-from monte_carlo.option_base import *
-from monte_carlo.timer import *
-from monte_carlo.mc_viz import *
-import os
-import ctypes
-from numpy.ctypeslib import ndpointer
+import my_python_code.library_notebook as funcs
 
-# CUDA Implementation use 0
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 # Cell
 class _McSettings(ctypes.Structure):
