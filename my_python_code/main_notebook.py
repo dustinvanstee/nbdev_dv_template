@@ -4,6 +4,8 @@ __all__ = []
 
 # Cell
 # Setup in notebook flag.  Useful when you export code and have some situations where you dont want certain part of code run like visulaizations..
+# Or in this example, when you run as python, the relative path changes for your library ..
+
 import sys,os
 try: from nbdev.imports import IN_NOTEBOOK
 except: IN_NOTEBOOK=False
