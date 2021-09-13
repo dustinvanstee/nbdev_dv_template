@@ -10,12 +10,14 @@ except: IN_NOTEBOOK=False
 
 if IN_NOTEBOOK :
     print("In Notebooke mode")
+    import my_python_code.library_notebook as funcs
+
 else :
     print("Running in batch mode")
-    os.chdir("../my_python_code")
+    import library_notebook as funcs
+
 
 # Cell
-import my_python_code.library_notebook as funcs
 
 
 # Cell
