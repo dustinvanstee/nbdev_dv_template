@@ -2,8 +2,7 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"hello_world": "00_funcs.ipynb",
-         "OptionCuda": "01_main.ipynb"}
+index = {"hello_world": "00_funcs.ipynb"}
 
 modules = ["library_notebook.py",
            "main_notebook.py"]
